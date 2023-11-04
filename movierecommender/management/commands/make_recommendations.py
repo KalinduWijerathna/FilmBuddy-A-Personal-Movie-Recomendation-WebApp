@@ -60,5 +60,4 @@ class Command(BaseCommand):
             unwatched_movie.recommended = will_recommend
             unwatched_movie.save()
 
-
 # python manage.py make_recommendations
